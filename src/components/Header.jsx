@@ -10,17 +10,11 @@ export default function Header() {
   return (
     <div>
         <header className="main-wrap">
-
-            <div className="app-logo">
-                <img className="nav-img" src={Appicon} alt="app icon" />
-            </div>
-
             <nav className="nav-bar">
                 <img className="nav-img" src={home} alt="home" />
                 <img className="nav-img" src={search} alt="search" />
                 <img className="nav-img" src={prof} alt="profile" />
             </nav>
-
         </header>
     </div>
   )
