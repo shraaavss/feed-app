@@ -8,14 +8,18 @@ import prof from '../assets/ProfileIcon.svg';
 export default function Header() {
   return (
     <div>
-        <header className="flex p-8">
+        <header className="flex p-8 justify-around">
+
             <div className="app-logo">
                 <img src={Appicon} alt="app icon" />
-                <img src={home} alt="app icon" />
-                <img src={search} alt="app icon" />
-                <img src={prof} alt="app icon" />
-                <p className="text-2xl font-bold">hello</p>
             </div>
+
+            <nav className="flex flex-row gap-10">
+                <img src={home} alt="home" />
+                <img src={search} alt="search" />
+                <img src={prof} alt="profile" />
+            </nav>
+
         </header>
     </div>
   )
